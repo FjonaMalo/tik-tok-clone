@@ -1,3 +1,29 @@
 html {
   scroll-snap-type: y mandatory;
 }
+
+.app {
+  height: 100vh;
+  background-color: black;
+  display: grid;
+  place-items: center;
+}
+
+.app__videos {
+  position: relative;
+  height: 650px;
+  overflow: scroll;
+  width: 40%;
+  max-width: 500px;
+  scroll-snap-type: y mandatory;
+}
+
+/* Hide the scrollbar for different search engines*/
+.app__videos::-webkit-scrollbar {
+  display: none;
+}
+
+.app__videos {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

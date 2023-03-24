@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
 import "./Video.css";
+import VideoFooter from "./VideoFooter";
 import video1 from "./videos/video.mp4";
 
 function Video() {
@@ -27,6 +28,7 @@ function Video() {
         // autoPlay
         src={video1}
       ></video>
+      <VideoFooter />
     </div>
   );
 }

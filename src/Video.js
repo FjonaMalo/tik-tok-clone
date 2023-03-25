@@ -30,7 +30,7 @@ function Video() {
         src={video1}
       ></video>
       <VideoFooter />
-      <VideoSidebar />
+      <VideoSidebar likes={333} messages={222} shares={111} />
     </div>
   );
 }

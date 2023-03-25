@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import "./Video.css";
 import VideoFooter from "./VideoFooter";
+import VideoSidebar from "./VideoSidebar";
 import video1 from "./videos/video.mp4";
 
 function Video() {
@@ -29,6 +30,7 @@ function Video() {
         src={video1}
       ></video>
       <VideoFooter />
+      <VideoSidebar />
     </div>
   );
 }
